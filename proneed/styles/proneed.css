@@ -131,11 +131,26 @@ footer .social img  {
 } 
 #hero-img {
  width: 100%;
+ height: 800px;
  
 }
 h2{
     margin: 0;
 }
+h3{
+    text-align: right;
+    color: #134d66;
+    margin-left: 720px;
+}
+.para_one, .para_two {
+    text-align: center;
+    margin: 20px;
+    color: black;
+    font-size: 1.2em;
+}
+    
+
+
 #logo_link{
    display: grid;
    padding-top: 5px; 

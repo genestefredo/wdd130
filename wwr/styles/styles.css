@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0, auto;
@@ -5,11 +7,16 @@
 }
 body{
     background-color: #fcfbfb;  
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -23,9 +30,13 @@ main section{
 #background {
     height: 725px;
     background-color: rgba(0, 0, 0, 0.265);
+    margin-bottom: 100px;
 }
 .msg{
-   background-color: #78c5d7;
+   background-color: #78c5d7;;
+   line-height: 1.5em;
+   padding: 35px;
+   margin-top: 150px;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -36,25 +47,43 @@ nav a:hover {
 }
 .home-title{
   color: black;  
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+  
 }
 h4{
     color: #134266;
 }
 .book, .join{
-    background-color: #78c5d7;
+    background-color: #fce172;
+    color: #134266;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #fce172;
 }
 footer{
     background-color: #134266;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .msg h2{
     color: #fce172;
 }
 .msg p{
    color: #134266;  
+   flex-grow: ;
+   font-size: .8em;
+   padding-bottom: 15px;
+   
+}
+h2{
+    margin: 0;
 }
 footer a{
     background-color: black;
@@ -69,13 +98,32 @@ footer p {
 }
 .logo{
     width: 80Px;
+   
+    
+}
+#logo_link{
+  padding-top: 5px;  
 }
 .icon{
     width: 80px;
+    padding-top: 15px;
 }
 #hero-img{
     width: 100%;
 }
+.card-img{
+    border: 10px solid #fce172;
+}
 footer p a:hover {
     text-decoration: underline;
-}    
+} 
+ .social img{
+  padding-top: 15px;  
+}  
+.rivers-card, .camping-card, .rapids-card   {
+    margin: 200px 0;}
+
+    main section img {
+        box-sizing: border-box;
+    }
+         

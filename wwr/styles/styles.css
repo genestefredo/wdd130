@@ -12,11 +12,26 @@ body{
     margin: 0;
     padding: 0;
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+}
 nav a{
     text-align: center;
     color: white;
     text-decoration: none;
     padding: 35px;
+}
+#hero{
+    display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+#hero-msg h4{
+    color: white;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -39,8 +54,11 @@ main section{
    margin-top: 150px;
 }
 header {
-    background-color:rgba(20,30,13, .7);
-}
+    display: grid;
+    grid-template-columns: 150px auto;
+     background-color:rgba(20,30,13, .7);
+      
+    }
 nav a:hover {
     background-color: black;
     color: #78c5d7;
@@ -102,6 +120,8 @@ footer p {
     
 }
 #logo_link{
+    justify-self: center;
+    align-self: center;
   padding-top: 5px;  
 }
 .icon{

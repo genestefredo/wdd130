@@ -26,8 +26,63 @@
 <img id="hero-img" src="https://github.com/genestefredo/wdd130/blob/master/wwr/Proneed/images/image/nutrition-banner1.jpg?raw=true" alt="fruits banner ">
       </div>  
 
-      
+      <script>
+        function greetUser(){
+            let name= prompt('Please tell us what is your name?');
+            let greeting= "Hi " + name + ".We are happy to be able to answer your questions, please enter your name in the following box.";
+            alert(greeting); 
+        }
+        function showMessage(){
+        alert(" PRONEED is An organisation that provide Nutrition and education help for children In Haiti. We provide supplement help for undernourished Children according to World Health Organization growth charts, they are enrolled in our program. Our health lessons promote exclusive breastfeeding until 6 months, and all pregnant and lactating mothers are enrolled in the program and received nutritional supplements. In addition to teaching lessons on nutrition and health, local coordinators educate families on child cognitive development. In areas where needed, we also provide semi-annual de-worming of children.");}
+        function applyScripture(){
+            let name = document.getElementById("nameInputBox").value;
+            let scripture= "Welcome again  " + name + " ,I want to inform you that Proneed works in the field of nutrition and education. So if you want to help children have a more accessible school environment. you can contact Proneed by e-mail: proneed509@gmail.com Or you can also visit our Facebook page for more information. you can also choose to sponsor one or more of our children from the (I WANT TO HELP) listed at the bottom of the last page.Thank you " + name+  " , for consulting us.";
+            document.getElementById("outputDiv").innerHTML = scripture;
+        }
+    </script>
+   
+
+    <style> 
+        body {background-color: rgba(62, 135, 73, 0.434);}
+    h3 {color: rgba(165, 42, 116, 0.957); text-align: center;} 
+    h1 {color: rgba(165, 130, 42, 0.858); text-align: center;}
+    p{color: rgb(245, 220, 222);text-align:right;}
+    P{color: rgb(165, 42, 128); text-align: left;}
+    P{color: black;}
+    </style>
+</head>
+<body>
+    <div>
+  <main> 
+ <button type="button" onclick="showMessage()" >WHAT IS PRONEED ?</button> <br><br>
+    <button type="button" onclick="greetUser()">Hello!</button>
+    Please enter Your name: <input type="text" id="nameInputBox"> 
+    <button type="button" onclick="applyScripture()">Push</button><br><br>
+    <div id="outputDiv"></div>
+    <h1 style="font-size:350%">PROGRAMME</h1><h3>DE<br>Nutrition et d'Education
+ <br>Pour les Enfants déminus<br>(PRONEED)</h3>
+ <P><a href="https://www.youtube.com/channel/UCDTiIK2_DBdYT7S9j8agS5g">YOUTUBE</a>
+    <a href="https://fb.me/proneed509">FACEBOOK</a></P>
+   
+    h1 OBJECTIF ET MISSION </p>
+  
+   <h1>OBJECTIF</h1>
+    
+    <menu><li>Promoting Nutritional Care of Children</li></menu> 
+    <menu><li>Provide the necessary financial support for the elementary education of children.</li></menu> 
+    <menu><li>Be at the service of human development with and for the most disadvantaged population.</li></menu> <br> <br>
+   
+    <Strong><i>MISSION</i></Strong> <br>
+    <menu><li>Provide health and economic supervision and training to the most vulnerable.</li></menu> 
+    <menu><li>Support children in their elementary education.</li></menu> 
+    <menu><li>Participate in the civic and education life of children.</li></menu> 
+    <menu><li>Seek the means and funds to help the poor, the malnourished in their social and economic life.</li></menu> 
+    <menu><li>Collaborate or join other national and international organizations with the same project or program as PRONEED.</li></menu> 
+    <menu><li>Participate in the creation of social work.</li></menu> 
+
+    
 </main>
+
 <footer>
     <p>PRONEED&copy;2023-Fredo Geneste</p>
 <p><a href="site-plan-rafting.htm"target="_blank">Site-Plan</a></p>

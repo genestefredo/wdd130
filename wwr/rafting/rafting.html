@@ -15,31 +15,140 @@
    
     <nav>
         <a href="indext.html">Home</a>
-        <a href="#">Page 2</a>
+        <a href="rafting/rafting.html">Page 2</a>
         <a href="site-plan-rafting.html">Site Plan</a>
         <a href="contactus.html">Contact_us</a>
     </nav>
     </header>
     <div id="hero">
     <div id="hero-box">
-        <img id="hero-img" src="https://byui-wdd.github.io/wdd130/rafting_images/hero.png" alt="Hero mage">
+        <img id="hero-img" src="https://byui-wdd.github.io/wdd130/resources/images/rafting4_600.jpg" alt="Hero mage">
     </div>
     <section id="hero-msg">
-        <h1 class="home-title">Have An Adventure</h1>
-        <h4>Make Memories with Dry oar</h4>
+        <h1 class="home-title">A good adventure will make joy in our heart, in the place we will navigate will be different one to another. <br>
+            So, in this page your will see one another the different place where your adventure will be displayed <br>
+            Nestled deep in the Frank Church Wilderness of No Return winds the Salmon river. <br>
+             The Salmon was given the nickname long ago as the River of No Return by the people living near it because of the number of folks that came to visit and <br>
+              fell so in love with the rugged beauty of the river that they never left.</h1>
+    
         <div class="button-box">
         <a class="book" href="contactus.html">Book Now</a>
         </div>
     </section>
     </div>
-    
-    
+    <main class="home-grid">
+        <section>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="https://byui-wdd.github.io/wdd130/resources/images/rafting14_600.jpg" width="550" height="350">
+                  <div class="text">Caption Text</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="https://byui-wdd.github.io/wdd130/resources/images/salmon-kayak3.jpg" width="550" height="350">
+                  <div class="text">Caption Two</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="https://byui-wdd.github.io/wdd130/resources/images/rafting7_600.jpg" width="550" height="350">
+                  <div class="text">Caption Three</div>
+                </div>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+                
+                <script>
+                let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+
+         </script>
+        </main>
+        <main>
+        <div class="slideshow-container1">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="https://byui-wdd.github.io/wdd130/resources/images/rafting14_600.jpg" width="550" height="350">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="https://byui-wdd.github.io/wdd130/resources/images/salmon-kayak3.jpg" width="550" height="350">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="https://byui-wdd.github.io/wdd130/resources/images/rafting7_600.jpg" width="550" height="350">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+         </script>
+        </main>
+     </section>
     </main>
     <footer>
         <p>Dry Oar &copy; 2023 - Fredo_GENESTE</p>
         <p><a href="site-plan-rafting.html">Site Plan</a></p>
         <p><a href="contactus.html">Contact Us</a></p>
-        <div class="social">
+        <div class="social"m>
             <a href="https://facebook.com" target="_blank">
                 <img src="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png" alt="fb icon">
             </a>

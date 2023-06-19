@@ -201,6 +201,7 @@ footer p a:hover {
 .slideshow-container{
 display: inline ;
 
+
 }
 
 * {box-sizing: border-box}
@@ -211,7 +212,7 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: none;
+  margin-left: 100px;
 }
 
 /* Next1 & previous buttons */

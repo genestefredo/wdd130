@@ -39,7 +39,10 @@ margin-top: -100px;
     z-index: -1;
 }
 #hero-msg h4{
-    color: white;
+    color: blue;
+    margin-top: -1000px;
+    padding-bottom: 800px;
+    font-size: 1.2em;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -82,7 +85,7 @@ nav a:hover {
 h4{
     color: #134266;
 }
-.book, .join{
+.book1, .join{
     background-color: #fce172;
     color: #134266;
     text-decoration: none;
@@ -91,8 +94,8 @@ h4{
     margin-top: 50px;
     border-radius: 5px;
 }
-.book:hover, .join:hover{
-    background-color: #fce172;
+.book1:hover:hover, .join:hover{
+    background-color: #72e5fc;
 }
 footer{
     background-color: #134266;
@@ -142,6 +145,7 @@ footer p {
 }
 #hero-img{
     width: 100%;
+    height: 80%;
 }
 .card-img{
     border: 10px solid #fce172;
@@ -198,6 +202,10 @@ footer p a:hover {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #fce172;
 }
+.book1{
+    margin-left: 1080px;
+    z-index: 1;
+}
 .slideshow-container{
 display: inline ;
 
@@ -225,10 +233,11 @@ img {vertical-align: middle;}
   margin-top: -22px;
   color: brown;
   font-weight: bold;
-  font-size: px;
+  font-size: 19px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  z-index: 1;
 }
 
 /* Position the "next button" to the right */

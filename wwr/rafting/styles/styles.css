@@ -198,7 +198,10 @@ footer p a:hover {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #fce172;
 }
+.slideshow-container{
+display: inline ;
 
+}
 
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
@@ -208,35 +211,35 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: none;
 }
 
-/* Next & previous buttons */
+/* Next1 & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute;
+  position:relative;
   top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: brown;
   font-weight: bold;
-  font-size: 18px;
+  font-size: px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
 
 /* Position the "next button" to the right */
-.next {
-  right: 0;
+.next1 {
+  right: 1;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a grey background color */
-.prev:hover, .next:hover {
+.prev1:hover:hover, .next1:hover:hover {
   background-color: #f1f1f1;
-  color: black;
+  color: rgb(45, 128, 25);
 }
   
 @media screen and (max-width: 900px) {

@@ -91,8 +91,9 @@ h4{
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 5px;
+    z-index: 1;
 }
 .book1:hover:hover, .join:hover{
     background-color: #72e5fc;

@@ -123,6 +123,9 @@ footer a:hover {
     width: 80px;
     padding-top: 10px;
 }
+p{
+    text-align: center;
+}
 footer p  a:hover{
     text-decoration: underline;
 }

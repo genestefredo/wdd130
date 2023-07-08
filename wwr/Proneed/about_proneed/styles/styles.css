@@ -130,7 +130,7 @@ footer p  a:hover{
     text-decoration: underline;
 }
 footer .social img  {
-    padding-top: 15px;
+    padding-top: 10px;
 } 
 #hero-img {
  width: 100%;
@@ -329,7 +329,7 @@ footer {
    }
 
    .social img{
-    padding-top: 45px;  
+    padding-top: 15px;  
   }  
 
 
@@ -377,6 +377,7 @@ footer {
     }
     p {
         text-align: center;
+        margin: 5px;
     }  
 
 }

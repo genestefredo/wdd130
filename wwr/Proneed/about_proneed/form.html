@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORM</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        form {
+          width: 420px;
+        }
+  
+        div {
+          margin-bottom: 20px;
+        }
+  
+        label {
+          display: inline-block;
+          width: 240px;
+          text-align: right;
+          padding-right: 10px;
+        }
+  
+        button, input {
+          float: right;
+        }
+      </style>
 </head>
 <body>
     <div id="content"> 
@@ -20,6 +40,7 @@
         <a href="personal_website.html">About_Proneed</a>
         <a href="form.html">Contact Us</a>
     </nav>
+    
 </header> 
     <div id="hero">
       <div id="hero-box">
@@ -35,7 +56,15 @@
     </div>
  
 <main>
-
+    <form method="post" action="https://www.foo.com" enctype="multipart/form-data">
+        <div>
+          <label for="file">Choose a file</label>
+          <input type="file" id="file" name="myFile" />
+        </div>
+        <div>
+          <button>Send the file</button>
+        </div>
+      </form>
 </main>
 <footer>
     <p>PRONEED&copy;2023-Fredo Geneste</p>
